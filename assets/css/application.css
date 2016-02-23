@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:800);
 @font-face {
   font-family: 'Blogger Sans';
   src: url("assets/css/font/blogger_sans-webfont.eot");
@@ -32,7 +33,7 @@
     font-family: 'Blogger Sans', sans-serif;
     font-weight: 600;
     color: white;
-    font-size: 2rem; }
+    font-size: 1.5rem; }
     .navbar *:hover {
       color: #3D68CC; }
 
@@ -40,3 +41,18 @@
   text-align: center;
   font-size: 1.25rem;
   font-weight: 600; }
+
+.projects-display {
+  background-color: black; }
+  .projects-display * {
+    text-align: center; }
+  .projects-display h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    color: white; }
+  .projects-display p {
+    font-size: 1.2rem;
+    font-weight: 800;
+    font-family: 'Blogger Sans', sans-serif;
+    color: white; }
