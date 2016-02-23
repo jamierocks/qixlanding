@@ -1,0 +1,10 @@
+{
+  "name": "qixlanding",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Qixalite",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.2.0"
+  }
+}
