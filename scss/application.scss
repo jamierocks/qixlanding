@@ -1,6 +1,11 @@
 @import "fonts";
 @import url(https://fonts.googleapis.com/css?family=Raleway:800);
 
+// hack to remove margin
+.navbar:not(:last-child), .tabs:not(:last-child) {
+  margin-bottom: 0px;
+}
+
 .navbar {
   background-color: #7BD678;
 
@@ -19,6 +24,37 @@
   text-align: center;
   font-size: 1.25rem;
   font-weight: 600;
+}
+
+.main-display {
+  background-color: #75C67A;
+
+  h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: black;
+    padding-top: 1%;
+
+    // this is going to need a media query
+    margin-left: 20%;
+  }
+  h2 {
+    color: black;
+    font-size: 1.4rem;
+    font-weight: 500;
+
+    // this is going to need a media query
+    margin-left: 22%;
+  }
+  p {
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 2%;
+
+    // this is going to need a media query
+    margin-left: 22%;
+    margin-right: 22%;
+  }
 }
 
 .projects-display {

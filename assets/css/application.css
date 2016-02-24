@@ -27,6 +27,9 @@
   font-weight: 600;
   font-style: normal; }
 
+.navbar:not(:last-child), .tabs:not(:last-child) {
+  margin-bottom: 0px; }
+
 .navbar {
   background-color: #7BD678; }
   .navbar * {
@@ -41,6 +44,26 @@
   text-align: center;
   font-size: 1.25rem;
   font-weight: 600; }
+
+.main-display {
+  background-color: #75C67A; }
+  .main-display h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: black;
+    padding-top: 1%;
+    margin-left: 20%; }
+  .main-display h2 {
+    color: black;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-left: 22%; }
+  .main-display p {
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    margin-left: 22%;
+    margin-right: 22%; }
 
 .projects-display {
   background-color: black; }
