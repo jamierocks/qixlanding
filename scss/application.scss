@@ -28,10 +28,11 @@
 
 .main-display {
   background-color: #75C67A;
+  font-family: 'Raleway', sans-serif;
 
   h1 {
     font-size: 2rem;
-    font-weight: 600;
+    font-weight: bolder;
     color: black;
     padding-top: 1%;
 
@@ -40,20 +41,21 @@
   }
   h2 {
     color: black;
-    font-size: 1.4rem;
-    font-weight: 500;
+    font-size: 1.7rem;
+    font-weight: 200;
 
     // this is going to need a media query
-    margin-left: 22%;
+    margin-left: 23%;
   }
   p {
     color: white;
     padding-top: 1%;
     padding-bottom: 2%;
+    font-size: 1.1rem;
 
     // this is going to need a media query
-    margin-left: 22%;
-    margin-right: 22%;
+    margin-left: 23%;
+    margin-right: 23%;
   }
 }
 

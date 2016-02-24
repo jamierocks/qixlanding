@@ -46,24 +46,26 @@
   font-weight: 600; }
 
 .main-display {
-  background-color: #75C67A; }
+  background-color: #75C67A;
+  font-family: 'Raleway', sans-serif; }
   .main-display h1 {
     font-size: 2rem;
-    font-weight: 600;
+    font-weight: bolder;
     color: black;
     padding-top: 1%;
     margin-left: 20%; }
   .main-display h2 {
     color: black;
-    font-size: 1.4rem;
-    font-weight: 500;
-    margin-left: 22%; }
+    font-size: 1.7rem;
+    font-weight: 200;
+    margin-left: 23%; }
   .main-display p {
     color: white;
     padding-top: 1%;
     padding-bottom: 2%;
-    margin-left: 22%;
-    margin-right: 22%; }
+    font-size: 1.1rem;
+    margin-left: 23%;
+    margin-right: 23%; }
 
 .projects-display {
   background-color: black; }
