@@ -1,5 +1,12 @@
-@import "fonts";
-@import url(https://fonts.googleapis.com/css?family=Raleway:800);
+// Lets start by importing all required files
+@import url(https://fonts.googleapis.com/css?family=Raleway:800); // Google Fonts
+@import "fonts"; // Custom Fonts
+
+@import "base"; // Base File
+
+@import "header"; // Header
+@import "content"; // Content
+@import "footer"; // Footer
 
 // hack to remove margin
 .navbar:not(:last-child), .tabs:not(:last-child) {
