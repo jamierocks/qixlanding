@@ -28,7 +28,11 @@
   font-style: normal; }
 
 .navbar:not(:last-child), .tabs:not(:last-child) {
-  margin-bottom: 0px; }
+  margin-bottom: 0; }
+
+@media screen and (max-width: 768px) {
+  .navbar-item:not(:last-child) {
+    margin-bottom: 0; } }
 
 .divider {
   align-items: center;

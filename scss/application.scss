@@ -3,7 +3,14 @@
 
 // hack to remove margin
 .navbar:not(:last-child), .tabs:not(:last-child) {
-  margin-bottom: 0px;
+  margin-bottom: 0;
+}
+
+// hack to remove margin on mobile
+@media screen and (max-width: 768px) {
+  .navbar-item:not(:last-child) {
+    margin-bottom: 0;
+  }
 }
 
 .divider {
