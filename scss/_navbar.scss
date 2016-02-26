@@ -1,0 +1,25 @@
+// hack to remove margin
+.navbar:not(:last-child), .tabs:not(:last-child) {
+  margin-bottom: 0;
+}
+
+// hack to remove margin on mobile
+@media screen and (max-width: 768px) {
+  .navbar-item:not(:last-child) {
+    margin-bottom: 0;
+  }
+}
+
+.navbar {
+  background-color: #7BD678;
+
+  * {
+    font-family: 'Blogger Sans', sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 1.5rem;
+    &:hover {
+      color: #3D68CC;
+    }
+  }
+}

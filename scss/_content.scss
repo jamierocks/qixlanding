@@ -1,0 +1,60 @@
+.divider {
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.main-display {
+  background-color: #75C67A;
+  font-family: 'Raleway', sans-serif;
+
+  h1 {
+    font-size: 2rem;
+    font-weight: bolder;
+    color: black;
+    padding-top: 1%;
+
+    // this is going to need a media query
+    margin-left: 20%;
+  }
+  h2 {
+    color: black;
+    font-size: 1.7rem;
+    font-weight: 200;
+
+    // this is going to need a media query
+    margin-left: 23%;
+  }
+  p {
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    font-size: 1.1rem;
+
+    // this is going to need a media query
+    margin-left: 23%;
+    margin-right: 23%;
+  }
+}
+
+.projects-display {
+  background-color: black;
+
+  * {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+  }
+
+  p {
+    font-size: 1.2rem;
+    font-weight: 800;
+    font-family: 'Blogger Sans', sans-serif;
+    color: white;
+  }
+}
