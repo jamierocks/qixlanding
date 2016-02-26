@@ -34,11 +34,17 @@
   .navbar-item:not(:last-child) {
     margin-bottom: 0; } }
 
+.navbar-item:first-child {
+  margin-left: 25%; }
+
+.navbar-item:last-child {
+  margin-right: 25%; }
+
 .navbar {
   background-color: #7BD678; }
   .navbar * {
     font-family: 'Blogger Sans', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 600;
     color: white; }
     .navbar *:hover {
