@@ -98,3 +98,9 @@
   font-size: 1.25rem;
   font-weight: 600;
   text-align: center; }
+
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
