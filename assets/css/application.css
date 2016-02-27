@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
 html {
   box-sizing: border-box; }
 
@@ -174,6 +175,7 @@ img {
     display: block;
     position: relative;
     margin: 0 0 50px;
+    color: #021419;
     font-family: 'Raleway', sans-serif;
     font-size: 2.375em;
     font-weight: 900;
@@ -187,11 +189,15 @@ img {
       margin-left: -50px;
       width: 100px;
       height: 4px;
-      background-color: #FBFBFF; }
+      background-color: #021419; }
 
 .projects {
   background-color: #021419;
   color: #FBFBFF; }
+  .projects h1.section-title {
+    color: #FBFBFF; }
+    .projects h1.section-title:after {
+      background-color: #FBFBFF; }
   .projects ul.project {
     margin-top: 1.25em;
     margin-bottom: 0;
@@ -225,6 +231,26 @@ img {
         font-size: 1.125em;
         font-weight: 900;
         text-transform: uppercase; }
+
+.contact {
+  background: #fff;
+  color: #021419; }
+  .contact ul.social {
+    display: flex;
+    margin: 20px 0;
+    padding: 0;
+    justify-content: center;
+    list-style: none; }
+    .contact ul.social::after {
+      clear: both;
+      content: "";
+      display: table; }
+    .contact ul.social li {
+      float: left;
+      padding: 0 20px; }
+      .contact ul.social li a {
+        font-size: 3em;
+        color: #021419; }
 
 .footer {
   padding: 20px 0;

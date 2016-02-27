@@ -79,6 +79,7 @@
         display: block;
         position: relative;
         margin: 0 0 50px;
+        color: $colour_black;
         font-family: 'Raleway', sans-serif;
         font-size: em(38);
         font-weight: 900;
@@ -93,7 +94,7 @@
             margin-left: -50px;
             width: 100px;
             height: 4px;
-            background-color: $colour_white;
+            background-color: $colour_black;
         }
     }
 }
@@ -101,6 +102,14 @@
 .projects {
     background-color: $colour_black;
     color: $colour_white;
+    
+    h1.section-title {
+        color: $colour_white;
+        
+        &:after {
+            background-color: $colour_white;
+        }
+    }
     
     ul.project {
         margin-top: em(20);
@@ -130,4 +139,29 @@
             }
         }
     }
-}
+} // .projects
+
+.contact {
+    background: #fff;
+    color: $colour_black;
+    
+    ul.social {
+        display: flex;
+        margin: 20px 0;
+        padding: 0;
+        justify-content: center;
+        list-style: none;
+        
+        @include clearfix; // clearfix
+        
+        li {
+            float: left;
+            padding: 0 20px;
+            
+            a {
+                font-size: em(48);
+                color: $colour_black;
+            }
+        }
+    }
+} // .contact
