@@ -1,12 +1,14 @@
 // Lets start by importing all required files
+@import "bourbon/bourbon"; // Bourbon
+@import "neat/neat"; // Neat
+@import "variables"; // Variables
+
 @import url(https://fonts.googleapis.com/css?family=Raleway:800); // Google Fonts
 @import "fonts"; // Custom Fonts
 
 @import "base"; // Base File
 
-@import "navbar"; // Header
+@import "header"; // Header
+//@import "navbar"; // Header
 @import "content"; // Content
 @import "footer"; // Footer
-
-@import "bourbon/bourbon"; // Bourbon
-@import "neat/neat"; // Neat
