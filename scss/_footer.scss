@@ -1,6 +1,10 @@
-.footer * {
-  font-size: 1.25rem;
-  font-weight: 600;
-
-  text-align: center;
+.footer {
+    padding: 20px 0;
+    background-color: $colour_black;
+    font-family: 'Raleway', sans-serif;
+    font-size: em(12);
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    color: $colour_white;
 }

@@ -69,3 +69,65 @@
     color: white;
   }
 }
+
+/* 27/02/2016 - Kenyan */
+
+.section {
+    padding: 40px 0;
+    
+    h1.section-title {
+        display: block;
+        position: relative;
+        margin: 0 0 50px;
+        font-family: 'Raleway', sans-serif;
+        font-size: em(38);
+        font-weight: 900;
+        text-align: center;
+        text-transform: uppercase;
+        
+        &:after {
+            content: "";
+            position: absolute;
+            bottom: -20px;
+            left: 50%;
+            margin-left: -50px;
+            width: 100px;
+            height: 4px;
+            background-color: $colour_white;
+        }
+    }
+}
+
+.projects {
+    background-color: $colour_black;
+    color: $colour_white;
+    
+    ul.project {
+        margin-top: em(20);
+        margin-bottom: 0;
+        padding: 0;
+        @include span-columns(8);
+        @include shift(2);
+        list-style: none;
+        
+        @include clearfix; // clearfix
+        
+        li {
+            float: left;
+            text-align: center;
+            @include span-columns(4);
+            
+            img {
+                max-height: 100px;
+            }
+            
+            h3 {
+                display: block;
+                font-family: 'Raleway', sans-serif;
+                font-size: em(18);
+                font-weight: 900;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
