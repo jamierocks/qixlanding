@@ -165,3 +165,22 @@
         }
     }
 } // .contact
+
+// Responsive - Mobile to Tablet
+@include media(max-width 769px) {
+    
+    .section {
+        
+        ul.project {
+            
+            li {
+                margin: 0 0 20px;
+                width: 100%;
+                
+                &:last-child {
+                    margin: 0;
+                }
+            }
+        } // project
+    }
+}

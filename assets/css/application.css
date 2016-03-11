@@ -124,6 +124,20 @@ img {
         font-family: 'Raleway', sans-serif;
         font-size: 1.25em; }
 
+@media screen and (max-width: 769px) {
+  .header .navbar ul.nav li {
+    display: none; }
+  .header .navbar ul.nav li.branding {
+    display: block; }
+  .header .about-us h1 {
+    font-size: 1.875em; }
+  .header .about-us .about-content {
+    margin: 0; }
+    .header .about-us .about-content h2 {
+      font-size: 1.5em; }
+    .header .about-us .about-content p {
+      font-size: 1em; } }
+
 .divider {
   align-items: center;
   margin: 0;
@@ -252,6 +266,13 @@ img {
         font-size: 3em;
         color: #021419; }
 
+@media screen and (max-width: 769px) {
+  .section ul.project li {
+    margin: 0 0 20px;
+    width: 100%; }
+    .section ul.project li:last-child {
+      margin: 0; } }
+
 .footer {
   padding: 20px 0;
   background-color: #021419;
@@ -261,3 +282,7 @@ img {
   text-align: center;
   text-transform: uppercase;
   color: #FBFBFF; }
+
+@media screen and (max-width: 769px) {
+  .footer {
+    padding: 20px; } }

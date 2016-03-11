@@ -8,3 +8,10 @@
     text-transform: uppercase;
     color: $colour_white;
 }
+
+// Responsive - Mobile to Tablet
+@include media(max-width 769px) {
+    .footer {
+        padding: 20px;
+    }
+}
