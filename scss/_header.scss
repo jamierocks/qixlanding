@@ -88,6 +88,15 @@
     } // .about-us
 }
 
+@include media(min-width 769px max-width 960px) {
+    
+    .header {
+        
+        .navbar ul.nav li a {
+            padding: 0 8px;
+        }
+    }
+}
 // Responsive - Mobile to Tablet
 @include media(max-width 769px) {
     
